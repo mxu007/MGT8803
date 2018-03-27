@@ -3,6 +3,9 @@ import sqlite3
 import glob
 import os
 
+# This python program iterate thousands of folders
+# Each folder has 15-20 different csv tables
+# The program put create and combine different csv tables into single database file
 
 # iterate through file in a directory
 def do_directory(dirname, db):
